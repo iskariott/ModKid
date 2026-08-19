@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #12131C;
+  color: #FFF;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Шапка та Футер */
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background: #1a1b26;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFCC00;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #CCC;
+}
+
+nav a.active {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.btn-yellow {
+  background: #FFCC00;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* Сетка карточок */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.card {
+  background: #1e1f2e;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 12px;
+  color: #AAA;
+  margin-bottom: 15px;
+}
+
+.btn-blue {
+  background: #00A3FF;
+  color: #FFF;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Спеціальні секції */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('hero-bg.jpg') center/cover;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subscribe {
+  background: #1e1f2e;
+  padding: 40px;
+  text-align: center;
+  margin: 40px 0;
+  border-radius: 10px;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+section {
+  padding: 40px 5%;
+}
+
+footer {
+  font-size: 12px;
+  color: #888;
+}
