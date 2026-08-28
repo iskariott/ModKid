@@ -1,100 +1,610 @@
 <!doctype html>
 <html lang="uk">
-    <head>
-        <meta charset="UTF-8" />
-        <title>ModKid — Каталог Плагінів</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="logo">ModKid</div>
-            <nav>
-                <a href="index.html">Головна</a>
-                <a href="mods.html">Моди</a>
-                <a href="plugins.html" class="active">Плагіни</a>
-                <a href="#">Контакти</a>
-            </nav>
-            <button class="btn-yellow">Підтримати</button>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <main>
-            <section>
-                <h1 style="text-align: center; margin-bottom: 30px">Каталог Плагінів</h1>
+    <title>ModKid — Плагіни</title>
 
-                <div class="grid">
-                    <!-- Рядок 1 -->
-                    <div class="card">
-                        <img src="p1.jpg" alt="Vampirism" />
-                        <h3>Vampirism</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="p2.jpg" alt="Teleportation" />
-                        <h3>Teleportation</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="p3.jpg" alt="Super Speed" />
-                        <h3>Super Speed</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <!-- Рядок 2 -->
-                    <div class="card">
-                        <img src="p4.jpg" alt="Custom Portals" />
-                        <h3>Custom Portals</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="p5.jpg" alt="Flight Mode" />
-                        <h3>Flight Mode</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="p6.jpg" alt="Super Mining" />
-                        <h3>Super Mining</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <!-- Рядок 3 -->
-                    <div class="card">
-                        <img src="p7.jpg" alt="Economy System" />
-                        <h3>Economy System</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="p8.jpg" alt="Skill Upgrades" />
-                        <h3>Skill Upgrades</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="p9.jpg" alt="Time Control" />
-                        <h3>Time Control</h3>
-                        <p>Короткий опис плагіну...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                </div>
-            </section>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <section class="subscribe">
-                <h2>Підпишіться!</h2>
-                <input type="email" placeholder="Ваш Email" />
-                <button class="btn-yellow">Підписатися</button>
-            </section>
-        </main>
+<body>
 
-        <footer>
-            <span>ModKid Team 2024</span>
+<header class="header">
+
+    <div class="logo">
+        Mod<span>Kid</span>
+    </div>
+
+    <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="mods.html">Моди</a>
+        <a href="plugins.html" class="active">Плагіни</a>
+        <a href="#contacts">Контакти</a>
+    </nav>
+
+    <button class="header-button">
+        Приєднатися
+    </button>
+
+</header>
+
+
+<main>
+
+
+  
+
+    <section class="page-title">
+
+        <div class="eyebrow">
+            MODKID / PLUGINS
+        </div>
+
+        <h1>
+            Каталог Плагінів
+        </h1>
+
+        <p>
+            Розширюй можливості своєї гри
+            за допомогою потужних плагінів.
+        </p>
+
+    </section>
+
+
+  
+
+    <section class="catalog">
+
+        <div class="catalog-header">
+
             <div>
-                <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a> |
-                <a href="#">Grown-ups Info</a>
+
+                <div class="section-label">
+                    EXPLORE
+                </div>
+
+                <h2>
+                    Всі плагіни
+                </h2>
+
             </div>
-        </footer>
-    </body>
+
+
+            <!-- FILTERS -->
+
+            <div class="filters">
+
+                <button
+                    class="filter active"
+                    data-category="all">
+                    Всі
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="gameplay">
+                    Gameplay
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="pvp">
+                    PvP
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="utility">
+                    Utility
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="economy">
+                    Economy
+                </button>
+
+            </div>
+
+        </div>
+
+
+      
+
+        <div class="catalog-grid">
+
+
+         
+
+            <article
+                class="catalog-card"
+                data-category="utility">
+
+                <img
+                    class="catalog-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufLtztyHLnyTB2xHapCObFI8DnuFn78svcKzNVGm5Lw&s"
+                    alt="EssentialsX">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        UTILITY
+                    </span>
+
+                    <h3>
+                        EssentialsX
+                    </h3>
+
+                    <p>
+                        Великий набір корисних команд
+                        та можливостей для Minecraft-сервера.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://essentialsx.net/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+          
+
+            <article
+                class="catalog-card"
+                data-category="utility">
+
+                <img
+                    class="catalog-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVyDVwQehRdFeM-1SO1zNHAiYzgBpcu4K03tEYKDy_EV8KjFJ__WQV-ATk&s=10"
+                    alt="WorldEdit">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        UTILITY
+                    </span>
+
+                    <h3>
+                        WorldEdit
+                    </h3>
+
+                    <p>
+                        Потужний інструмент для швидкого
+                        будівництва та редагування світу.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://enginehub.org/worldedit/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+       
+
+            <article
+                class="catalog-card"
+                data-category="utility">
+
+                <img
+                    class="catalog-image"
+                    src="https://repository-images.githubusercontent.com/92154425/a4c59480-29ba-11eb-9a3a-ce8c10713097"
+                    alt="LuckPerms">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        UTILITY
+                    </span>
+
+                    <h3>
+                        LuckPerms
+                    </h3>
+
+                    <p>
+                        Система груп, прав та дозволів
+                        для Minecraft-серверів.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://luckperms.net/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        
+
+            <article
+                class="catalog-card"
+                data-category="pvp">
+
+                <img
+                    class="catalog-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZjWoRdi-fFpEjQC6KXJa_fjUbZcjiRDr_NIj5RTOz6g&s"
+                    alt="Combat Plugin">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        PVP
+                    </span>
+
+                    <h3>
+                        Combat Plugin
+                    </h3>
+
+                    <p>
+                        Додаткові механіки бою та можливості
+                        для PvP-серверів.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://www.spigotmc.org/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+     
+
+            <article
+                class="catalog-card"
+                data-category="gameplay">
+
+                <img
+                    class="catalog-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE1BDLm3OJSL2l59XNeTjQeQHQhX9rqpyJoT7ANr6HFQ&s=10"
+                    alt="Jobs Reborn">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        GAMEPLAY
+                    </span>
+
+                    <h3>
+                        Jobs Reborn
+                    </h3>
+
+                    <p>
+                        Обирай професію, виконуй роботу
+                        та отримуй винагороди.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://www.spigotmc.org/resources/jobs-reborn.4216/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+         
+
+            <article
+                class="catalog-card"
+                data-category="economy">
+
+                <img
+                    class="catalog-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_z7vSVX5qX8FDJM67k2g_8tYAkqiB3qnRJ022BaAaKgCvqA8iZpRh45d&s=10"
+                    alt="Vault">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        ECONOMY
+                    </span>
+
+                    <h3>
+                        Vault
+                    </h3>
+
+                    <p>
+                        API для роботи з економікою,
+                        permissions та іншими плагінами.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://www.spigotmc.org/resources/vault.34315/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+    
+
+            <article
+                class="catalog-card"
+                data-category="pvp">
+
+                <img
+                    class="catalog-image"
+                    src="https://i.ytimg.com/vi/GbynEzCDIEg/hq720.jpg"
+                    alt="CombatLogX">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        PVP
+                    </span>
+
+                    <h3>
+                        CombatLogX
+                    </h3>
+
+                    <p>
+                        Захищає сервер від виходу гравців
+                        під час бою.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://modrinth.com/plugin/combatlogx"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- 8 ECONOMY -->
+
+            <article
+                class="catalog-card"
+                data-category="economy">
+
+                <img
+                    class="catalog-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPpPxIifnjJwjHwlNGubkkPwKa06omL11duVeTajBN9e4zA-xq7IqJUFdQ&s=10"
+                    alt="Economy">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        ECONOMY
+                    </span>
+
+                    <h3>
+                        Economy
+                    </h3>
+
+                    <p>
+                        Економічна система для створення
+                        валюти, магазинів та торгівлі.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://www.spigotmc.org/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+    
+
+            <article
+                class="catalog-card"
+                data-category="utility">
+
+                <img
+                    class="catalog-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52cKjr6qn4Q2zWBdGrZoE3XK0BOvQmRRWO7KCDjJuhg&s"
+                    alt="Server Utilities">
+
+                <div class="catalog-body">
+
+                    <span class="card-tag">
+                        UTILITY
+                    </span>
+
+                    <h3>
+                        Server Utilities
+                    </h3>
+
+                    <p>
+                        Корисні інструменти для адміністрування
+                        та керування сервером.
+                    </p>
+
+                    <a
+                        class="blue-button"
+                        href="https://www.spigotmc.org/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Сайт плагіну →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="newsletter">
+
+        <div>
+
+            <div class="section-label">
+                STAY UPDATED
+            </div>
+
+            <h2>
+                Слідкуй за оновленнями
+            </h2>
+
+        </div>
+
+        <div class="subscribe">
+
+            <input
+                type="email"
+                placeholder="Ваша електронна пошта">
+
+            <button>
+                Підписатися
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+
+<footer
+    class="footer"
+    id="contacts">
+
+    <div class="logo">
+        Mod<span>Kid</span>
+    </div>
+
+    <div>
+        ModKid Team 2026
+    </div>
+
+    <div class="footer-links">
+
+        <a href="#">
+            Privacy Policy
+        </a>
+
+        <a href="#contacts">
+            Contact Us
+        </a>
+
+        <a href="#">
+            Terms
+        </a>
+
+    </div>
+
+</footer>
+
+
+
+
+<script>
+
+const filters =
+    document.querySelectorAll(".filter");
+
+const cards =
+    document.querySelectorAll(".catalog-card");
+
+
+filters.forEach(filter => {
+
+    filter.addEventListener("click", () => {
+
+        filters.forEach(button => {
+            button.classList.remove("active");
+        });
+
+        filter.classList.add("active");
+
+
+        const category =
+            filter.dataset.category;
+
+
+        cards.forEach(card => {
+
+            if (
+                category === "all" ||
+                card.dataset.category === category
+            ) {
+
+                card.style.display = "";
+
+            } else {
+
+                card.style.display = "none";
+
+            }
+
+        });
+
+    });
+
+});
+
+</script>
+
+</body>
 </html>
