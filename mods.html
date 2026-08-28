@@ -1,114 +1,635 @@
 <!doctype html>
 <html lang="uk">
-    <head>
-        <meta charset="UTF-8" />
-        <title>ModKid — Каталог Модів</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="logo">ModKid</div>
-            <nav>
-                <a href="index.html">Головна</a>
-                <a href="mods.html" class="active">Моди</a>
-                <a href="plugins.html">Плагіни</a>
-                <a href="#">Контакти</a>
-            </nav>
-            <button class="btn-yellow">Підтримати</button>
-        </header>
 
-        <main>
-            <section>
-                <h1 style="text-align: center; margin-bottom: 30px">Каталог Модів</h1>
+<head>
 
-                <div class="grid">
-                    <!-- Рядок 1 -->
-                    <div class="card">
-                        <img src="mods_img\DA.webp" alt="Dragon Armor" />
-                        <h3>Dragon Armor</h3>
-                        <p>Dragon Armor Mod додає в Minecraft броню з луски та кісток драконів.</p>
+    <meta charset="UTF-8">
 
-<p>Захист: Перевершує діамантову та незеритову броню за міцністю і міцністю.</p>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-<p>Ефекти: Надає вогнестійкість, захист від магії та збільшений опір до відкидання.</p>
+    <title>ModKid — Моди</title>
 
-<p>Стихії: У більших модах (як-от Ice and Fire) ділиться на вогняний, крижаний та блискавичний комплекти.</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mods_img\imagesc.jpg" alt="Create" />
-                        <h3>Create</h3>
-                        <p>**Minecraft Create** — це мод, який додає багато механізмів, машин і автоматизації. За його допомогою можна створювати заводи, конвеєри, ферми та складні механічні конструкції. ⚙️
-.</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mods_img\ss.jpg" alt="Marvel Superheroes" />
-                        <h3>Marvel Superheroes</h3>
-                        <p>**Marvel Superheroes** — це мод для Minecraft, який додає супергероїв, їхні здібності, костюми та зброю. Гравці можуть отримувати сили відомих героїв і боротися з ворогами у світі Minecraft. 🦸‍♂️
-.</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <!-- Рядок 2 -->
-                    <div class="card">
-                        <img src="mods_img\in.jpg" alt="Industrial Craft" />
-                        <h3>Industrial Craft</h3>
-                        <p>**Industrial Craft** — це мод для Minecraft, який додає електрику, нові машини, руди та технології. Він дозволяє автоматизувати видобуток ресурсів і створювати сучасні промислові системи. ⚡🏭
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mods_img\j.jpg" alt="Jei" />
-                        <h3>Jei</h3>
-                        <p>**Jei** — це мод, який додає систему відображення рецептів та інформації про предмети. Він допомагає гравцям краще розуміти механіки гри та знаходити нові рецепти. 📖
-.</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mods_img\mi.png" alt="minecolonists" />
-                        <h3>minecolonists</h3>
-                        <p>**minecolonists** — це мод, який додає колоністів, їхні будинки, робочі місця та систему управління колонією. Гравці можуть створювати свої власні колонії та керувати ними. 🏡
-.</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <!-- Рядок 3 -->
-                    <div class="card">
-                        <img src="mods_img\ca.png"L_Ender 's Cataclysm" />
-                        <h3>L_Ender 's Cataclysm</h3>
-                        <p>**L_Ender 's Cataclysm** — це мод, який додає новий світ з унікальними мобами, предметами та механіками. Гравці можуть подорожувати по цьому світу та використовувати нові ресурси. 🌍
-.</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mods_img\v.png" alt="vampirs" />
-                        <h3>vampirs</h3>
-                        <p>**vampirs** — це мод, який додає систему відображення рецептів та інформації про предмети. Він допомагає гравцям краще розуміти механіки гри та знаходити нові рецепти. 📖
-.</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mods_img\fo.jpg"The Twilight Forest" />
-                        <h3>The Twilight Forest</h3>
-                        <p>**The Twilight Forest** — це мод для Minecraft, який додає загадковий темний ліс, нових босів, мобів, підземелля та унікальні предмети. 🌲🌙 Він перетворює гру на захопливу пригоду з дослідженням і битвами.
+</head>
 
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                </div>
-            </section>
+<body>
 
-            <section class="subscribe">
-                <h2>Stay Updated!</h2>
-                <input type="email" placeholder="Ваш Email" />
-                <button class="btn-yellow">Підписатися</button>
-            </section>
-        </main>
 
-        <footer>
-            <span>ModKid Team 2024</span>
-            <div>
-                <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a> |
-                <a href="#">Grown-ups Info</a>
+<header class="header">
+
+    <a href="index.html" class="logo">
+        Mod<span>Kid</span>
+    </a>
+
+    <nav class="nav">
+
+        <a href="index.html">
+            Головна
+        </a>
+
+        <a href="mods.html" class="active">
+            Моди
+        </a>
+
+        <a href="plugins.html">
+            Плагіни
+        </a>
+
+        <a href="#contacts">
+            Контакти
+        </a>
+
+    </nav>
+
+    <a href="#contacts" class="header-button">
+        Приєднатися
+    </a>
+
+</header>
+
+
+<main>
+
+
+<section class="page-title">
+
+    <div class="eyebrow">
+        MODKID / MODS
+    </div>
+
+    <h1>
+        Каталог Модів
+    </h1>
+
+    <p>
+        Знайди Minecraft-моди, які зроблять
+        твою гру ще цікавішою.
+    </p>
+
+</section>
+
+
+<section class="catalog">
+
+    <div class="catalog-header">
+
+        <div>
+
+            <div class="section-label">
+                EXPLORE
             </div>
-        </footer>
-    </body>
+
+            <h2>
+                Всі моди
+            </h2>
+
+        </div>
+
+
+        <div class="filters">
+
+            <button
+                class="filter active"
+                data-filter="all"
+            >
+                Всі
+            </button>
+
+            <button
+                class="filter"
+                data-filter="adventure"
+            >
+                Пригоди
+            </button>
+
+            <button
+                class="filter"
+                data-filter="magic"
+            >
+                Магія
+            </button>
+
+            <button
+                class="filter"
+                data-filter="pvp"
+            >
+                PvP
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="catalog-grid">
+
+
+        
+
+        <article
+            class="catalog-card"
+            data-category="adventure"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://i.ytimg.com/vi/ukEsigiyCAY/maxresdefault.jpg"
+                alt="DragonLoot"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    ПРИГОДИ
+                </span>
+
+                <h3>
+                    DragonLoot
+                </h3>
+
+                <p>
+                    Dragon Scales, Dragon Armor,
+                    зброя та покращені нагороди за Ender Dragon.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods/dragonloot"
+                    target="_blank"
+                >
+                    Відкрити мод
+                </a>
+
+            </div>
+
+        </article>
+
+
+        
+
+        <article
+            class="catalog-card"
+            data-category="adventure"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://i.ytimg.com/vi/JNTlKZu7rV4/maxresdefault.jpg"
+                alt="Inventory Pets"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    ПРИГОДИ
+                </span>
+
+                <h3>
+                    Inventory Pets
+                </h3>
+
+                <p>
+                    69 унікальних улюбленців,
+                    які дають різні ефекти та здібності.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods/inventory-pets"
+                    target="_blank"
+                >
+                    Відкрити мод
+                </a>
+
+            </div>
+
+        </article>
+
+
+        
+
+        <article
+            class="catalog-card"
+            data-category="magic"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://i.ytimg.com/vi/W-BGACFN1ck/maxresdefault.jpg"
+                alt="Magic Combat Wands"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    МАГІЯ
+                </span>
+
+                <h3>
+                    Magic Combat Wands
+                </h3>
+
+                <p>
+                    Магічні палички та бойові
+                    заклинання для Minecraft.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods/magic-combat-wands"
+                    target="_blank"
+                >
+                    Відкрити мод
+                </a>
+
+            </div>
+
+        </article>
+
+
+        
+
+        <article
+            class="catalog-card"
+            data-category="adventure"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/9caeeaf7-bf96-4cbe-a42e-ba5d95ce87ad/DragonAdventure_Screenshot_3.jpg"
+                alt="Dragon Adventure"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    ПРИГОДИ
+                </span>
+
+                <h3>
+                    Dragon Adventure
+                </h3>
+
+                <p>
+                    Нові пригоди, небезпечні вороги
+                    та дослідження світу.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods"
+                    target="_blank"
+                >
+                    Відкрити моди
+                </a>
+
+            </div>
+
+        </article>
+
+
+        
+
+        <article
+            class="catalog-card"
+            data-category="magic"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://i.ytimg.com/vi/kxcVQtQiOug/maxresdefault.jpg"
+                alt="Even More Magic"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    МАГІЯ
+                </span>
+
+                <h3>
+                    Even More Magic
+                </h3>
+
+                <p>
+                    Велика кількість магічних паличок,
+                    заклинань та чарівних предметів.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods/even-more-magic"
+                    target="_blank"
+                >
+                    Відкрити мод
+                </a>
+
+            </div>
+
+        </article>
+
+
+        
+
+        <article
+            class="catalog-card"
+            data-category="pvp"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://cdn.modrinth.com/data/mrwaxWkf/images/d7f8d41d6d65e3daa7ac5bb244a479fda5e04282.png"
+                alt="Combat Expansion"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    PVP
+                </span>
+
+                <h3>
+                    Combat Expansion
+                </h3>
+
+                <p>
+                    Нові бойові можливості,
+                    зброя та механіки PvP.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods"
+                    target="_blank"
+                >
+                    Відкрити моди
+                </a>
+
+            </div>
+
+        </article>
+
+
+        
+
+        <article
+            class="catalog-card"
+            data-category="pvp"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://i.ytimg.com/vi/zoLHkWIXzm8/maxresdefault.jpg"
+                alt="Better Combat"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    PVP
+                </span>
+
+                <h3>
+                    Better Combat
+                </h3>
+
+                <p>
+                    Покращена бойова система
+                    для Minecraft.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus"
+                    target="_blank"
+                >
+                    Відкрити мод
+                </a>
+
+            </div>
+
+        </article>
+
+
+      
+
+        <article
+            class="catalog-card"
+            data-category="adventure"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://new.planet-mc.net/wp-content/uploads/2026/04/1642079982_1.webp"
+                alt="Adventure Expansion"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    ПРИГОДИ
+                </span>
+
+                <h3>
+                    Adventure Expansion
+                </h3>
+
+                <p>
+                    Нові місця, предмети та
+                    пригодницькі можливості.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods"
+                    target="_blank"
+                >
+                    Відкрити моди
+                </a>
+
+            </div>
+
+        </article>
+
+
+     
+
+        <article
+            class="catalog-card"
+            data-category="magic"
+        >
+
+            <img
+                class="catalog-image"
+                src="https://i.tlauncher.org/images/Magic-Expansion-Addon-Thumbnail.png"
+                alt="Magic Expansion"
+            >
+
+            <div class="catalog-body">
+
+                <span class="card-tag">
+                    МАГІЯ
+                </span>
+
+                <h3>
+                    Magic Expansion
+                </h3>
+
+                <p>
+                    Магічні предмети, здібності
+                    та нові способи гри.
+                </p>
+
+                <a
+                    class="blue-button"
+                    href="https://www.curseforge.com/minecraft/mc-mods"
+                    target="_blank"
+                >
+                    Відкрити моди
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<section class="contacts" id="contacts">
+
+    <div class="section-label">
+        CONTACT
+    </div>
+
+    <h2>
+        Маєш свій мод?
+    </h2>
+
+    <p>
+        Напиши нам, щоб додати його до каталогу ModKid.
+    </p>
+
+    <a
+        href="mailto:modkid@example.com"
+        class="yellow-button"
+    >
+        Написати нам
+    </a>
+
+</section>
+
+
+<section class="newsletter">
+
+    <div>
+
+        <div class="section-label">
+            STAY UPDATED
+        </div>
+
+        <h2>
+            Отримуй нові моди першим
+        </h2>
+
+    </div>
+
+    <div class="subscribe">
+
+        <input
+            type="email"
+            placeholder="Ваша електронна пошта"
+        >
+
+        <button>
+            Підписатися
+        </button>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="logo">
+        Mod<span>Kid</span>
+    </div>
+
+    <div>
+        ModKid Team 2026
+    </div>
+
+    <div class="footer-links">
+
+        <a href="#">
+            Privacy Policy
+        </a>
+
+        <a href="#contacts">
+            Contact Us
+        </a>
+
+        <a href="#">
+            Terms
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script>
+
+const filters = document.querySelectorAll(".filter");
+const cards = document.querySelectorAll(".catalog-card");
+
+filters.forEach(filter => {
+
+    filter.addEventListener("click", () => {
+
+        filters.forEach(button => {
+            button.classList.remove("active");
+        });
+
+        filter.classList.add("active");
+
+        const category = filter.dataset.filter;
+
+        cards.forEach(card => {
+
+            if (
+                category === "all" ||
+                card.dataset.category === category
+            ) {
+
+                card.style.display = "";
+
+            } else {
+
+                card.style.display = "none";
+
+            }
+
+        });
+
+    });
+
+});
+
+</script>
+
+</body>
 </html>
