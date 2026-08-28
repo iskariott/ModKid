@@ -1,93 +1,392 @@
 <!doctype html>
 <html lang="uk">
-    <head>
-        <meta charset="UTF-8" />
-        <title>ModKid — Головна</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="logo">ModKid</div>
-            <nav>
-                <a href="index.html" class="active">Головна</a>
-                <a href="mods.html">Моди</a>
-                <a href="plugins.html">Плагіни</a>
-                <a href="#">Контакти</a>
-            </nav>
-            <button class="btn-yellow">Підтримати</button>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <main>
-            <section class="hero">
-                <h1>Ласкаво просимо до ModKid!</h1>
-                <p>Найкращі моди та плагіни для твоїх ігор</p>
-                <br />
-                <button class="btn-yellow">Детальніше</button>
-            </section>
+    <title>ModKid — Головна</title>
 
-            <section>
-                <h2>Популярні Моди</h2>
-                <div class="grid">
-                    <div class="card">
-                        <img src="mod1.jpg" alt="Dragon Armor" />
-                        <h3>Dragon Armor</h3>
-                        <p>Опис моду у декілька рядків...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mod2.jpg" alt="Cute Pets" />
-                        <h3>Cute Pets</h3>
-                        <p>Опис моду у декілька рядків...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="mod3.jpg" alt="Magic Wands" />
-                        <h3>Magic Wands</h3>
-                        <p>Опис моду у декілька рядків...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                </div>
-            </section>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <section>
-                <h2>Топ Плагіни</h2>
-                <div class="grid">
-                    <div class="card">
-                        <img src="plugin1.jpg" alt="Sky Islands" />
-                        <h3>Sky Islands</h3>
-                        <p>Опис плагіну у декілька рядків...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="plugin2.jpg" alt="Bypassed Quest" />
-                        <h3>Bypassed Quest</h3>
-                        <p>Опис плагіну у декілька рядків...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                    <div class="card">
-                        <img src="plugin3.jpg" alt="Mini Adventure" />
-                        <h3>Mini Adventure</h3>
-                        <p>Опис плагіну у декілька рядків...</p>
-                        <button class="btn-blue">Детальніше</button>
-                    </div>
-                </div>
-            </section>
+<body>
 
-            <section class="subscribe">
-                <h2>Stay Updated!</h2>
-                <p>Підпишіться на оновлення сайту</p>
-                <br />
-                <input type="email" placeholder="Ваш Email" />
-                <button class="btn-yellow">Підписатися</button>
-            </section>
-        </main>
+<header class="header">
 
-        <footer>
-            <span>ModKid Team 2024</span>
-            <div>
-                <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a> |
-                <a href="#">Grown-ups Info</a>
+    <a href="index.html" class="logo">
+        Mod<span>Kid</span>
+    </a>
+
+    <nav class="nav">
+        <a href="index.html" class="active">Головна</a>
+        <a href="mods.html">Моди</a>
+        <a href="plugins.html">Плагіни</a>
+        <a href="#contacts">Контакти</a>
+    </nav>
+
+    <a href="#contacts" class="header-button">
+        Приєднатися
+    </a>
+
+</header>
+
+
+<main>
+
+    
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                MODKID COMMUNITY
             </div>
-        </footer>
-    </body>
+
+            <h1>
+                Ласкаво просимо<br>
+                до <span>ModKid!</span>
+            </h1>
+
+            <p>
+                Найкращі моди та плагіни Minecraft
+                в одному місці.
+            </p>
+
+            <a href="mods.html" class="yellow-button">
+                Дивитися моди
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- MODS -->
+
+    <section class="section">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                01
+            </div>
+
+            <div>
+                <div class="section-label">
+                    DISCOVER
+                </div>
+
+                <h2>
+                    Популярні моди
+                </h2>
+            </div>
+
+        </div>
+
+
+        <div class="cards cards-3">
+
+            <article class="game-card">
+
+                <img
+                    class="card-image"
+                    src="https://m.media-amazon.com/images/I/71-gNWgsC9L.jpg"
+                    alt="Minecraft мод"
+                >
+
+                <div class="card-body">
+
+                    <span class="card-tag">
+                        ПРИГОДИ
+                    </span>
+
+                    <h3>
+                        DragonLoot
+                    </h3>
+
+                    <p>
+                        Нові драконячі матеріали, броня,
+                        зброя та нагороди за перемогу над драконом.
+                    </p>
+
+                    <a
+                        href="https://www.curseforge.com/minecraft/mc-mods/dragonloot"
+                        target="_blank"
+                    >
+                        Відкрити мод →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="game-card">
+
+                <img
+                    class="card-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJlayr0DvJ5whjL_zVGLQRJT6j5lCnFAM-soOTcqrVg&s"
+                    alt="Inventory Pets"
+                >
+
+                <div class="card-body">
+
+                    <span class="card-tag">
+                        ПРИГОДИ
+                    </span>
+
+                    <h3>
+                        Inventory Pets
+                    </h3>
+
+                    <p>
+                        Унікальні домашні улюбленці,
+                        які дають гравцю спеціальні здібності.
+                    </p>
+
+                    <a
+                        href="https://www.curseforge.com/minecraft/mc-mods/inventory-pets"
+                        target="_blank"
+                    >
+                        Відкрити мод →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="game-card">
+
+                <img
+                    class="card-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKTTjCP03xMmSky-7XA4EB2_j6oi5CguhDNvSRg-5BPfSBuLEWEKZn0U&s=10"
+                    alt="Magic Combat Wands"
+                >
+
+                <div class="card-body">
+
+                    <span class="card-tag">
+                        МАГІЯ
+                    </span>
+
+                    <h3>
+                        Magic Combat Wands
+                    </h3>
+
+                    <p>
+                        Магічні палички та нові способи
+                        використання магії у Minecraft.
+                    </p>
+
+                    <a
+                        href="https://www.curseforge.com/minecraft/mc-mods/magic-combat-wands"
+                        target="_blank"
+                    >
+                        Відкрити мод →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+   
+
+    <section class="featured-section">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                02
+            </div>
+
+            <div>
+
+                <div class="section-label">
+                    PLUGINS
+                </div>
+
+                <h2>
+                    Топ плагіни
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="cards cards-3">
+
+            <article class="plugin-card">
+
+                <div class="plugin-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    EssentialsX
+                </h3>
+
+                <p>
+                    Великий набір корисних команд
+                    та можливостей для Minecraft-сервера.
+                </p>
+
+                <a
+                    href="https://essentialsx.net/"
+                    target="_blank"
+                >
+                    Відкрити плагін →
+                </a>
+
+            </article>
+
+
+            <article class="plugin-card">
+
+                <div class="plugin-icon">
+                    ⚡
+                </div>
+
+                <h3>
+                    WorldEdit
+                </h3>
+
+                <p>
+                    Потужний інструмент для швидкого
+                    будівництва та редагування світу.
+                </p>
+
+                <a
+                    href="https://enginehub.org/worldedit/"
+                    target="_blank"
+                >
+                    Відкрити плагін →
+                </a>
+
+            </article>
+
+
+            <article class="plugin-card">
+
+                <div class="plugin-icon">
+                    ★
+                </div>
+
+                <h3>
+                    LuckPerms
+                </h3>
+
+                <p>
+                    Система груп, прав та керування
+                    доступом для Minecraft-сервера.
+                </p>
+
+                <a
+                    href="https://luckperms.net/"
+                    target="_blank"
+                >
+                    Відкрити плагін →
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    
+
+    <section class="contacts" id="contacts">
+
+        <div class="section-label">
+            CONTACT
+        </div>
+
+        <h2>
+            Зв'яжися з ModKid
+        </h2>
+
+        <p>
+            Маєш пропозиції, питання або хочеш додати
+            свій мод чи плагін? Напиши нам.
+        </p>
+
+        <a href="mailto:modkid@example.com" class="yellow-button">
+            Написати нам
+        </a>
+
+    </section>
+
+
+    
+
+    <section class="newsletter">
+
+        <div>
+
+            <div class="section-label">
+                STAY UPDATED
+            </div>
+
+            <h2>
+                Не пропускай новинки
+            </h2>
+
+        </div>
+
+        <div class="subscribe">
+
+            <input
+                type="email"
+                placeholder="Введіть вашу електронну пошту"
+            >
+
+            <button>
+                Підписатися
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="logo">
+        Mod<span>Kid</span>
+    </div>
+
+    <div>
+        ModKid Team 2026
+    </div>
+
+    <div class="footer-links">
+
+        <a href="#">
+            Privacy Policy
+        </a>
+
+        <a href="#contacts">
+            Contact Us
+        </a>
+
+        <a href="#">
+            Terms
+        </a>
+
+    </div>
+
+</footer>
+
+</body>
 </html>
