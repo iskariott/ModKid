@@ -3,12 +3,12 @@
 
 :root {
 
-    --yellow: #ffc400;
+    --yellow: #00ff4c;
     --yellow-light: #ffd633;
 
-    --blue: #00a8ed;
+    --blue: #0f0254;
 
-    --black: #07090d;
+    --black: #11836c;
     --dark: #0b0e14;
     --dark-card: #11151d;
 
@@ -17,7 +17,7 @@
     --text: #dfe2e8;
     --muted: #858c98;
 
-    --border: rgba(255,255,255,0.09);
+    --border: rgba(65, 162, 99, 0.09);
 
 }
 
